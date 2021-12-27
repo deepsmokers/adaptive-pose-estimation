@@ -1,0 +1,13 @@
+data/
+__pycache__/
+*.~
+.*.swp
+*.bin
+*.pb
+*.tflite
+*.csv
+.idea/
+build/
+venv/
+.env
+.vscode

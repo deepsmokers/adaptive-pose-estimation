@@ -7,7 +7,7 @@ import tensorflow as tf
 import numpy as np
 from .base_pose_estimator import BasePoseEstimator
 import cv2
-from adaptive_object_detection.detectors.x86_detector import X86Detector
+from adaptive_object_detection_module.detectors.x86_detector import X86Detector
 from tools.convert_results_format import prepare_detection_results
 from tools.bbox import box_to_center_scale, center_scale_to_box
 from tools.transformations import get_affine_transform, im_to_tensor

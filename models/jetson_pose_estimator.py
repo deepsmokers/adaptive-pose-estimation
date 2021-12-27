@@ -3,7 +3,7 @@ import tensorrt as trt
 import pycuda.driver as cuda
 import pycuda.autoinit
 import logging
-from adaptive_object_detection.detectors.jetson_detector import JetsonDetector
+from adaptive_object_detection_module.detectors.jetson_detector import JetsonDetector
 from .base_pose_estimator import BasePoseEstimator
 from tools.convert_results_format import prepare_detection_results
 from tools.bbox import box_to_center_scale, center_scale_to_box
