@@ -8,7 +8,6 @@ import cv2 as cv
 import numpy as np
 import streamlit as st
 
-
 from adaptive_object_detection.utils.parse_label_map import create_category_index_dict
 from tools.visualization_utils import visualize_poses
 
