@@ -79,7 +79,7 @@ def show_demo_image(img: str):
 
     left_column, right_column = st.columns(2)
 
-    left_column.image(str(input_image_path), caption="Selected Input", use_column_width="always")
+    left_column.image(str(input_image_path), caption="Input", use_column_width="always")
     right_column.image(str(output_image_path), caption="Output")
 
 
