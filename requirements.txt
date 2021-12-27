@@ -105,7 +105,6 @@ nltk==3.6.4
 notebook==6.4.3
 numba==0.53.1
 numpy==1.19.4
-nvidia-dali-tf-plugin-cuda110
 nvidia-dlprof
 nvidia-pyindex
 graphsurgeon
