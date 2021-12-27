@@ -105,8 +105,6 @@ nltk==3.6.4
 notebook==6.4.3
 numba==0.53.1
 numpy==1.19.4
-nvidia-dlprof
-nvidia-pyindex
 graphsurgeon
 nvtx==0.2.3
 oauthlib==3.1.1
