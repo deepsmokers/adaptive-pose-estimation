@@ -1,4 +1,4 @@
-FROM nvcr.io/nvidia/tensorflow:20.03-tf2-py3
+FROM nvcr.io/nvidia/tensorflow:21.12-tf2-py3
 
 VOLUME  /repo
 WORKDIR /repo
