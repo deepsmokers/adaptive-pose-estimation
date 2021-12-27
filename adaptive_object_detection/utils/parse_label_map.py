@@ -1,4 +1,4 @@
-from protos.label_map_pb2 import StringIntLabelMap
+from adaptive_object_detection.protos.label_map_pb2 import StringIntLabelMap
 from google.protobuf import text_format
 import os
 
