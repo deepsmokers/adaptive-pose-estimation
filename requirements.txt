@@ -2,3 +2,4 @@ numpy
 opencv-python
 wget
 tensorflow==2.6.2
+protobuf

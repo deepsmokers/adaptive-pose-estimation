@@ -1,6 +1,6 @@
 from .base_detector import BaseDetector
-from protos.objects_bboxes_pb2 import Bbox, Instance, Frame
-from utils.fps_calculator import convert_infr_time_to_fps
+from adaptive_object_detection.protos.objects_bboxes_pb2 import Bbox, Instance, Frame
+from adaptive_object_detection.utils.fps_calculator import convert_infr_time_to_fps
 import tensorflow as tf
 import numpy as np
 import cv2 as cv
