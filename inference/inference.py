@@ -4,7 +4,7 @@ import numpy as np
 import argparse
 import logging
 import os
-from adaptive_object_detection_module.utils.parse_label_map import create_category_index_dict
+from adaptive_object_detection.utils.parse_label_map import create_category_index_dict
 from tools.visualization_utils import visualize_poses
 
 logging.basicConfig(level=logging.INFO)
