@@ -60,7 +60,6 @@ def inference_image(image):
         cv_image = cv.imread(image_path)
         height, width, channels = cv_image.shape
         if np.shape(cv_image) != ():
-            print("bye")
             pose_estimator = load_model()
             out_frame = cv.resize(cv_image, (width, height))
             preprocessed_image = pose_estimator.preprocess(cv_image)
@@ -68,8 +67,9 @@ def inference_image(image):
             result = pose_estimator.post_process(*result_raw)
             if result is not None:
                 out_frame = visualize_poses(out_frame, result, (300, 300))
+                rgb_image = cv.cvtColor(out_frame, cv.COLOR_BGR2RGB)
 
-            r_col.image(out_frame, caption="Output")
+            r_col.image(rgb_image, caption="Output")
 
 
 def show_demo_image(img: str):
@@ -122,8 +122,8 @@ def upload_image_container():
 
 def main():
     st.set_page_config(page_title="FaceMask", layout="wide")
-    st.markdown("<h1 style='text-align: center; color: white;'>Welcome to FaceMask Detector</h1>", unsafe_allow_html=True)
-    st.text("fuck you")
+    st.markdown("<h1 style='text-align: center; color: white;'>Welcome to TinyPose</h1>", unsafe_allow_html=True)
+    st.markdown("***")
 
     app_mode = st.sidebar.selectbox("Please select from the following", SIDEBAR_OPTIONS)
 
