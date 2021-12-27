@@ -185,7 +185,6 @@ typing-extensions==3.7.4.3
 tzdata==2021.5
 tzlocal==4.1
 ucx-py
-uff
 urllib3==1.26.7
 uvicorn==0.15.0
 uvloop==0.16.0
