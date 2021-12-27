@@ -69,7 +69,7 @@ def inference_image(image):
                 out_frame = visualize_poses(out_frame, result, (300, 300))
                 rgb_image = cv.cvtColor(out_frame, cv.COLOR_BGR2RGB)
 
-            r_col.image(rgb_image, caption="Output")
+                r_col.image(rgb_image, caption="Output")
 
 
 def show_demo_image(img: str):
